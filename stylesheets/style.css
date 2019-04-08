@@ -1,0 +1,167 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background-color: rgba(233,200,147, 0.7) !important;
+}
+@media screen and (min-width: 997px) {
+	#main-box {
+		margin-top: 10vh;
+		height: 80vh;
+		padding: 0;
+	}
+	#link-bar {
+		position: absolute;
+		left: 0;
+		width: 5%;
+		height: 80vh;
+	}
+	#link-bar i {
+		font-size: 180%;
+		padding: 25%;
+		color: rgba(233,200,147, 1);
+	}
+	#link-bar i:hover {
+		background-color: rgba(233,200,147, 0.8);
+		color: white;
+	}
+	#img-box {
+		position: absolute;
+		background-image: url('../images/Screen Shot 2019-04-06 at 21.31.42.png');
+		background-size: cover;
+		width: 40%;
+		height: 80vh;
+		left: 5%;
+	}
+	#content {
+		position: absolute;
+		height: 80vh;
+		width: 55%;
+		left: 45%;
+		top: 10%;
+
+		display: flex;
+	  	justify-content: center;
+	  	flex-direction: column;
+		overflow: scroll;
+	}
+	#menu {
+		cursor: pointer;
+		position: absolute;
+		bottom: 0;
+	}
+	.focus {
+		color: rgb(152,75,67);
+	}
+}
+
+@media screen and (max-width: 996px)  {
+	#main-box {
+		margin-top: 10vh;
+		height: 80vh;
+		padding: 0;
+	}
+	#link-bar {
+		width: 100%;
+		height: 8%;
+		z-index: 99;
+		text-align: right;
+	}
+	#link-bar i {
+		font-size: 200%;
+		padding: 1%;
+		color: rgba(233,200,147, 1);
+	}
+	#link-bar i:hover {
+		background-color: rgba(233,200,147, 0.8);
+		color: white;
+	}
+	#img-box {
+		position: absolute;
+		background-image: url('../images/Screen Shot 2019-04-06 at 21.31.42.png');
+		background-size: cover;
+		width: 40%;
+		height: 80vh;
+		left: 0;
+		top: 0;
+	}
+	#content {
+		position: absolute;
+		height: 80vh;
+		width: 55%;
+		left: 40%;
+		top: 10%;
+
+		display: flex;
+	  	justify-content: center;
+	  	flex-direction: column;
+		overflow: scroll;
+	}
+	.focus {
+		color: rgb(152,75,67);
+	}
+
+
+}
+@media screen and (max-width: 768px) {
+	#main-box {
+		height: 80vh;
+		margin-top: 10vh;
+	}
+	#link-bar {
+		left: 0;
+		width: 100%;
+		height: 8%;
+		position: relative;
+	}
+	#link-bar i {
+		font-size: 200%;
+		padding: 0.5%;
+		color: rgba(233,200,147, 1);
+	}
+	#link-bar i:hover {
+		background-color: rgba(233,200,147, 0.8);
+		color: white;
+	}
+	#img-box {
+		background-image: url('../images/Screen Shot 2019-04-06 at 21.31.42.png');
+		background-size: cover;
+		background-position: center;
+		width: 50%;
+		height: 40%;
+		left: 25%;
+		border: solid 2px rgba(233,200,147, 0.8);
+		position: relative;
+	}	
+	#content {
+		left: 0;
+		top: 0;
+		height: 50%;
+		width: 100%;
+		overflow: scroll;
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 530px)  {
+	#main-box {
+		height: 90vh;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+	#img-box {
+		background-image: url('../images/Screen Shot 2019-04-06 at 21.31.42.png');
+		background-size: cover;
+		background-position: center;
+		width: 50%;
+		height: 30vh;
+		left: 25%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border: solid 2px rgba(233,200,147, 0.8);
+		position: auto;
+	}
+	#content {
+		overflow: visible;
+	}
+}
