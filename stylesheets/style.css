@@ -19,6 +19,12 @@ body {
 	transition: 1s all;			
 	/*IE 6-10 not support*/
 }
+.timeline {
+	overflow: scroll;
+}
+#skill-box {
+	overflow: scroll;
+}
 .slider {
   -webkit-appearance: none;
   width: 100%;
@@ -176,6 +182,7 @@ body {
 		padding: 0;
 		position: absolute;
 		border:  none;
+		overflow: scroll;
 	}
 	.timeline:hover {
 		cursor: pointer;
@@ -325,6 +332,7 @@ body {
 		padding: 0;
 		position: absolute;
 		border:  none;
+		overflow: scroll;
 	}
 	.timeline:hover {
 		cursor: pointer;
