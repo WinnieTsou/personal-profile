@@ -41,12 +41,29 @@
 
 			$('.timeline').hover(function() {
 				$(this).addClass('activated');
+
+				var timelineContent = '';
+				var yearBox = '';
+
+				if ( $(window).width() < 996 && $(window).width() >= 768) {
+					timelineContent = '20%';
+					yearBox = '15%';
+				} else if($(window).width() < 768 && $(window).width() >= 530) {
+					timelineContent = '20%';
+					yearBox = '15%';
+				} else if($(window).width() < 530){
+					timelineContent = '10%';
+					yearBox = '5%';
+				} else {
+					timelineContent = '30%';
+					yearBox = '25%';					
+				}
 				$(this).find('.timeline-content').animate({
-					top: "45%"
+					top: timelineContent
 				}, 300);
 				$(this).find('.timeline-content').slideDown('200');
 				$(this).find('.year-box').animate({
-					top: "35%"
+					top: yearBox
 				}, 500);
 			});
 
