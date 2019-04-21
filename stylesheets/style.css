@@ -21,9 +21,13 @@ body {
 }
 .timeline {
 	overflow: scroll;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	overflow: -moz-scrollbars-none;
 }
 #skill-box {
 	overflow: scroll;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	overflow: -moz-scrollbars-none;
 }
 .slider {
   -webkit-appearance: none;
@@ -93,12 +97,14 @@ body {
 		height: 80vh;
 		width: 55%;
 		left: 45%;
-		top: 10%;
 
 		display: flex;
 	  	justify-content: center;
 	  	flex-direction: column;
 		overflow: scroll;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+		overflow: -moz-scrollbars-none;
+
 	}
 	#menu {
 		cursor: pointer;
@@ -183,6 +189,8 @@ body {
 		position: absolute;
 		border:  none;
 		overflow: scroll;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+		overflow: -moz-scrollbars-none;
 	}
 	.timeline:hover {
 		cursor: pointer;
@@ -253,6 +261,8 @@ body {
 	  	justify-content: center;
 	  	flex-direction: column;
 		overflow: scroll;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+		overflow: -moz-scrollbars-none;
 	}
 	.focus {
 		color: rgb(152,75,67);
@@ -333,6 +343,8 @@ body {
 		position: absolute;
 		border:  none;
 		overflow: scroll;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+		overflow: -moz-scrollbars-none;
 	}
 	.timeline:hover {
 		cursor: pointer;
@@ -398,6 +410,8 @@ body {
 		height: 50%;
 		width: 100%;
 		overflow: scroll;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+		overflow: -moz-scrollbars-none;
 		position: relative;
 	}
 	.inputbox {
@@ -454,6 +468,8 @@ body {
 	}
 	#content {
 		overflow: visible;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+		overflow: -moz-scrollbars-none;
 	}
 	.inputbox {
 		width: 90%;
