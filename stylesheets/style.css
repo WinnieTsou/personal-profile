@@ -1,5 +1,6 @@
 * {
 	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden !important;
 }
 body {
 	overflow-x: hidden;
@@ -21,11 +22,13 @@ body {
 }
 .timeline {
 	overflow: scroll;
+	overflow-x: hidden;
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 	overflow: -moz-scrollbars-none;
 }
 #skill-box {
 	overflow: scroll;
+	overflow-x: hidden;
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 	overflow: -moz-scrollbars-none;
 }
@@ -104,6 +107,7 @@ body {
 		overflow: scroll;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
 		overflow: -moz-scrollbars-none;
+		overflow-x: hidden;
 
 	}
 	#menu {
@@ -191,6 +195,7 @@ body {
 		overflow: scroll;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
 		overflow: -moz-scrollbars-none;
+		overflow-x: hidden;
 	}
 	.timeline:hover {
 		cursor: pointer;
@@ -263,6 +268,7 @@ body {
 		overflow: scroll;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
 		overflow: -moz-scrollbars-none;
+		overflow-x: hidden;
 	}
 	.focus {
 		color: rgb(152,75,67);
@@ -345,6 +351,7 @@ body {
 		overflow: scroll;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
 		overflow: -moz-scrollbars-none;
+		overflow-x: hidden;
 	}
 	.timeline:hover {
 		cursor: pointer;
@@ -412,6 +419,7 @@ body {
 		overflow: scroll;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
 		overflow: -moz-scrollbars-none;
+		overflow-x: hidden;
 		position: relative;
 	}
 	.inputbox {
@@ -470,6 +478,7 @@ body {
 		overflow: visible;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
 		overflow: -moz-scrollbars-none;
+		overflow-x: hidden;
 	}
 	.inputbox {
 		width: 90%;
